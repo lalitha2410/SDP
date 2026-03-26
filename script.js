@@ -127,7 +127,7 @@ const formData = new FormData();
 formData.append("image",imageFile);
 
 const res = await fetch(
-"https://img-to-text-ten.vercel.app/api/text",
+"https://img-to-text-ten.vercel.app/text",
 {
 method:"POST",
 body:formData
