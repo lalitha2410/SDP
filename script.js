@@ -138,7 +138,7 @@ const data = await res.json();
 
 console.log(data);
 
-output.innerText=data.text || "No text detected";
+output.innerText=data || "No text detected";
 
 }catch(err){
 
