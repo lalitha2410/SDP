@@ -1,0 +1,57 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <title>AI Examination Evaluation System</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+    <div class="container">
+
+    <h1>AI Examination Evaluation System</h1>
+    <p>Answer Sheet Text Extraction</p>
+
+    <h2>Select Answer Sheet</h2>
+
+    <div class="buttons">
+
+    <label class="uploadBtn">
+    Upload From Gallery
+    <input type="file" id="fileInput" accept="image/*">
+    </label>
+
+    <button id="cameraBtn">📷 Capture From Camera</button>
+
+    </div>
+
+    <video id="video" autoplay></video>
+
+    <button id="captureBtn">Take Photo</button>
+
+    <div class="previewBox">
+
+    <img id="preview">
+
+    <span id="removeBtn">❌</span>
+
+    </div>
+
+    <button id="extractBtn">Extract Text</button>
+
+    <div class="result">
+
+    <h3>Extracted Text</h3>
+
+    <pre id="output">No text extracted yet</pre>
+
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    </body>
+    </html>
